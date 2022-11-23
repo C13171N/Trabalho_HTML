@@ -1,0 +1,246 @@
+*{
+    color: rgb(238, 217, 190); 
+    font-family:helvetica;
+    margin: 5px;
+    padding:10px;
+    font-size: 20px;
+    box-sizing: border-box;
+    
+}
+
+body{
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+    background-color: 333333;
+    background: linear-gradient(to top,#16154b,#c5c5c5, #16154b);
+}
+
+#body_UT{
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+    background-color: 333333;
+    background: linear-gradient(to top,#631D1D,#c5c5c5, #631d1d);
+}
+
+#body_MV{
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+    background-color: 333333;
+    background: linear-gradient(to top,#631D1D,#c5c5c5, #631d1d);
+}
+
+.titulo{
+    color: aquamarine;
+    background-color:blueviolet;
+    border: 5px solid; 
+    border-radius: 5px;
+    border-color: rgb(25, 146, 202);
+    transition: 0.5s;
+    text-decoration: none;
+    font-size: 35px;
+}
+
+.titulo:hover{
+    background-color: #fda239;
+}
+
+#titulo_principal{
+    color: pink;
+margin-left: 565px;
+}
+
+#UT_titulo_mainpage{
+    margin-left: 500px;
+}
+
+#MC_titulo_mainpage{
+    margin-left: 490px;
+    
+}
+
+#MV_titulo_mainpage{
+    margin-left: 520px;
+}    
+
+p{
+    line-height: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}  
+
+.imagem{
+    border-radius: 5px;
+    border: 2px solid rgb(85, 39, 212);
+    margin-left: 305px;
+    transition: 0.5s;
+} 
+
+.imagem:hover{
+    background-color: #fda239;
+}
+
+.botões_iniciais{
+    text-decoration: none; 
+    max-width: 50px;
+    background-color: blueviolet;
+    color: aquamarine;
+    border: 5px solid; 
+    border-radius: 5px;
+    border-color: rgb(25, 146, 202);
+    transition: 0.5s;
+}
+
+.botões_iniciais:hover{
+    background-color: #fda239;
+}
+
+h1,h2,p{
+    text-align: center;
+} 
+
+#botão_superior_UT{
+    margin-left: 0px;
+}
+
+#botão_superior_MV{
+    margin-left: 830px;
+}
+
+.botões_ref{
+    text-decoration: none; 
+    max-width: 50px;
+    background-color: blueviolet;
+    color: aquamarine;
+    border: 5px solid; 
+    border-radius: 5px;
+    border-color: rgb(25, 146, 202);
+    transition: 0.5s;
+    
+} 
+
+.botões_ref:hover{
+    background-color: #fda239;
+} 
+
+#link_techtudo{
+    margin-left: 470px;
+} 
+
+#link_eagames{
+    margin-left: 55px;
+} 
+
+.UT_titulos{
+    color: rgb(255, 238, 1);
+    background-color:#fda239;
+    margin-left: 500px;
+    margin-right: 500px;
+    border: 5px solid; 
+    border-radius: 5px;
+    border-color: rgb(199, 44, 78);
+    transition: 0.5s;
+    text-decoration: none;
+} 
+
+.UT_titulos:hover{
+    background-color: rgb(85, 85, 219);
+}
+ 
+#btn_paginaUT_MP{
+    margin-left: 80px;   
+    margin-right: 0px;
+}
+
+#btn_paginaUT_MV{
+    margin-left: 850px;
+    margin-right: 0px;
+}
+
+.UT_imgs{
+    border-radius: 5px;
+    border: 2px solid #fda239;
+    margin-left: 305px;
+    transition: 0.5s; 
+} 
+
+.UT_imgs:hover{
+    background-color: rgb(85, 85, 219);
+}
+
+h3{
+    text-align: center;
+} 
+
+.MV_titulos{
+    color: rgb(190, 140, 247);
+    background-color:#db3d3d;
+    margin-left: 500px;
+    margin-right: 500px;
+    border: 5px solid; 
+    border-radius: 5px;
+    border-color: rgb(60, 14, 112);
+    transition: 0.5s;
+    text-decoration: none;
+} 
+
+.MV_titulos:hover{
+    background-color: #faebd7;
+} 
+
+.MV_imgs{
+    border-radius: 5px;
+    border: 2px solid #db3d3d;
+    margin-left: 305px;
+    transition: 0.5s;
+} 
+.MV_imgs:hover{
+    background-color: #faebd7;
+}
+
+#btn_paginaMV_UT{
+    margin-left: 80px;
+    margin-right: 0px;
+} 
+
+#btn_paginaMV_MP{
+    margin-left: 780px;
+    margin-right: 0px;
+}
+
+.ft_autor{
+    border-radius: 18px;
+    border: 2px solid #674dff;
+    margin-left: 0px;
+    transition: 0.5s; 
+    max-width: 430px;
+    margin: 20px; 
+    
+}
+
+.descrição{
+    padding: 30px;
+    line-height: 30px;
+    font-size: 25px;
+    
+}
+
+#btn_lnkd{
+   margin-left: 150px;
+} 
+
+#btn_gthub{
+   margin-left: 40px; 
+}
+ 
+.container_profile{
+    display: flex;
+    align-items: top;
+}
+
+#btn_autor{
+    margin-left: 545px;
+} 
+

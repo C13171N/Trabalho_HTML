@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Carrossel</title>
+
+   <link rel="stylesheet" href="file:///D:/HTML5_CSS3/Exercícios/TRABALHOFR/MainPage/style.css">
+   
+</head>
+
+<body>
+
+   <div class="carousel">
+      <div class="carousel_inner">
+         <div class="carousel_item carousel_item__active">
+            <img src="IMG_crr(375).jpg" alt="" class="carousel_img">
+            <div class="carousel_caption">
+               <h1 class="carousel_title">titulo</h1>
+               <p class="carousel_description">
+                  descrição
+                  </p>
+            </div>
+         </div>
+         <div class="carousel_item">
+            <img src="IMG_crr2(375).jpg" alt="" class="carousel_img">
+         </div>
+         <div class="carousel_item">
+            <img src="IMG_crr3(375).jpg" alt="" class="carousel_img">
+         </div>
+      </div>
+
+      <div class="carousel_indicator">
+         <button class="carousel_dot carousel_dot__active"></button>
+         <button class="carousel_dot"></button>
+         <button class="carousel_dot"></button>
+      </div>
+
+      <div class="carousel_control">
+         <button class="carousel_button carousel_button__prev">
+            <i class="fas fa-chevron-left"></i>
+         </button>
+         <button class="carousel_button carousel_button__next">
+            <i class="fas fa-chevron-right"></i>
+         </button>
+      </div>
+   </div>
+
+   <script src="./script.js"></script>
+</body>
+
+</html>
